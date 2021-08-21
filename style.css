@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: khaki;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.etiqueta {
+    margin-right: 30px;
+}
+
+nav{
+    margin-right: auto;
+    margin-left: 200px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+    list-style: none;
+}
