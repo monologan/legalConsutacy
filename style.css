@@ -4,7 +4,6 @@
 }
 
 .contenedor {
-    background-color: khaki;
     width: 80%;
     margin: auto;
 }
@@ -15,21 +14,46 @@ header {
     align-items: center;
 }
 
-.logo {
+.logo img {
     margin-right: 10px;
+    height: 32px;
+    width: 32px;
 }
 
 .etiqueta {
     margin-right: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* or 115% */
+    letter-spacing: 1.5px;
+    color: #2D2F30;
+    mix-blend-mode: normal;
 }
 
-nav{
+nav {
     margin-right: auto;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 nav ul li {
     display: inline-block;
     padding: 30px;
     list-style: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    /* identical to box height, or 192% */
+    letter-spacing: 1.5px;
+    /* Neutral / Grey 7 */
+    color: #2D2F30;
+}
+
+.search img {
+    height: 24px;
+    width: 24px;
 }
