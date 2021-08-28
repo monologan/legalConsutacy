@@ -159,7 +159,6 @@ button {
 }
 
 .why__tittle {
-    
     width: 600px;
 }
 
@@ -171,7 +170,6 @@ button {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    
 }
 
 .card {
@@ -254,24 +252,20 @@ h3 {
     /* Neutral / Grey 7 */
     color: #2D2F30;
 }
-.tittle__parrafo{
+
+.tittle__parrafo {
     position: absolute;
-width: 384px;
-height: 144px;
-left: 175px;
-top: 1356px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 36px;
-/* or 180% */
-
-letter-spacing: 0.5px;
-
-/* Neutral / Grey 5 */
-
-color: #8B8C8C;
-
+    width: 384px;
+    height: 144px;
+    left: 175px;
+    top: 1356px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 180% */
+    letter-spacing: 0.5px;
+    /* Neutral / Grey 5 */
+    color: #8B8C8C;
 }
