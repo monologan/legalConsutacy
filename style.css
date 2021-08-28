@@ -61,10 +61,10 @@ nav ul li {
 .hero {
     display: flex;
     justify-content: row;
-   
     height: 974px;
     width: 1440px;
     background-color: #F9F8F9;
+    margin: 0 auto;
 }
 
 .hero__tittle {
@@ -72,11 +72,9 @@ nav ul li {
     height: 728px;
     margin-left: 160px;
     margin-top: 200px;
-   
 }
 
 .hero__imagen {
-   
     height: 974px;
     width: 549px;
     position: absolute;
@@ -134,7 +132,7 @@ button {
     margin-bottom: 40px;
 }
 
-.patrocinadores{
+.patrocinadores {
     width: 400px;
     height: 88px;
     display: flex;
@@ -142,11 +140,138 @@ button {
 }
 
 .patrocinadores img {
-    
-    padding:20px;
+    padding: 20px;
     height: 26px;
     width: 122px;
     margin-left: 0;
     padding-left: 0;
+}
+
+.why {
+    margin: 0 auto;
+    width: 1440px;
+    height: 786px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2FCFF;
+}
+
+.why__tittle {
+    
+    width: 600px;
+}
+
+.features {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    ba
+}
+
+.card {
+    width: 256px;
+    height: 253px;
+    margin: 0 auto;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.card--parrafo {
+    position: static;
+    height: 96px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 96px/2 + 27px);
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.3px;
+    /* Neutral / Grey 5 */
+    color: #8B8C8C;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.card__interna {
+    padding: 24px;
+    width: 210px;
+    height: 150px;
+}
+
+h3 {
+    margin: 10px 0;
+    order: 0;
+    flex-grow: 0;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 22px;
+    /* or 100% */
+    letter-spacing: 0.5px;
+    /* Text */
+    color: #363940;
+}
+
+.card__ico {
+    position: static;
+    width: 37px;
+    height: 37px;
+    left: 24px;
+    top: 24px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 5px 0px;
+}
+
+.tittle__why {
+    position: absolute;
+    width: 419.31px;
+    height: 291px;
+    left: 167px;
+    top: 1198px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.323077px;
+    /* Neutral / Grey 7 */
+    color: #2D2F30;
+}
+.tittle__parrafo{
+    position: absolute;
+width: 384px;
+height: 144px;
+left: 175px;
+top: 1356px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 36px;
+/* or 180% */
+
+letter-spacing: 0.5px;
+
+/* Neutral / Grey 5 */
+
+color: #8B8C8C;
 
 }
