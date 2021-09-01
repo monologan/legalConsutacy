@@ -269,3 +269,10 @@ h3 {
     /* Neutral / Grey 5 */
     color: #8B8C8C;
 }
+
+.achievement {
+    width: 1440px;
+    height: 360px;    
+    background-color: #1282A6;
+    background-image: url('img/Patterns.svg')
+}
