@@ -160,6 +160,12 @@ button {
 
 .why__tittle {
     width: 600px;
+    height: 400px;
+    border: chartreuse solid 1px;
+
+    
+
+    
 }
 
 .features {
@@ -238,11 +244,10 @@ h3 {
 }
 
 .tittle__why {
-    position: absolute;
+    
     width: 419.31px;
     height: 291px;
-    left: 167px;
-    top: 1198px;
+    
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -254,11 +259,10 @@ h3 {
 }
 
 .tittle__parrafo {
-    position: absolute;
+    
     width: 384px;
     height: 144px;
-    left: 175px;
-    top: 1356px;
+    
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
