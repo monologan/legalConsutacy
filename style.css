@@ -162,10 +162,40 @@ button {
     width: 600px;
     height: 400px;
     border: chartreuse solid 1px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     
+}
 
-    
+.tittle__why {
+    width: 419.31px;
+    height: 150px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.323077px;
+    /* Neutral / Grey 7 */
+    color: #2D2F30;
+    text-align: center;
+   
+}
+
+.tittle__parrafo {
+    width: 384px;
+    height: 144px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 180% */
+    letter-spacing: 0.5px;
+    /* Neutral / Grey 5 */
+    color: #8B8C8C;
 }
 
 .features {
@@ -243,40 +273,9 @@ h3 {
     margin: 5px 0px;
 }
 
-.tittle__why {
-    
-    width: 419.31px;
-    height: 291px;
-    
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 64px;
-    letter-spacing: 0.323077px;
-    /* Neutral / Grey 7 */
-    color: #2D2F30;
-}
-
-.tittle__parrafo {
-    
-    width: 384px;
-    height: 144px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 36px;
-    /* or 180% */
-    letter-spacing: 0.5px;
-    /* Neutral / Grey 5 */
-    color: #8B8C8C;
-}
-
 .achievement {
     width: 1440px;
-    height: 360px;    
+    height: 360px;
     background-color: #1282A6;
     background-image: url('img/Patterns.svg')
 }
